@@ -20,12 +20,12 @@ fi
 resp=$(curl --request GET \
 	--url 'https://alpha-vantage.p.rapidapi.com/query?function=GLOBAL_QUOTE&symbol='$symbols'&datatype=json' \
 	--header 'X-RapidAPI-Host: alpha-vantage.p.rapidapi.com' \
-	--header 'X-RapidAPI-Key: 2265800bebmshdecc75d05177257p1a6f84jsnaa4db14efc77')
+	--header 'X-RapidAPI-Key: '$api_key'')
 
 
 #quote validation
-#if api_key is not  present in the output of curl statement
-#then give error "invalid response from curl statement"
+#if $resp doesnot contains 'Global Quote'
+#then give error "invalid response from curl statement" and exit script
 
 
 sym=$(echo "$resp" | jq -r '.["Global Quote"]["01. symbol"]')
