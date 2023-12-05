@@ -1,0 +1,5 @@
+psql: warning: extra command-line argument "exit" ignored
+psql: warning: extra command-line argument "0" ignored
+psql: warning: extra command-line argument "exit" ignored
+psql: warning: extra command-line argument "0" ignored
+INSERT 0 1
