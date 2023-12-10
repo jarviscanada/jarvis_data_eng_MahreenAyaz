@@ -1,4 +1,5 @@
 ## Table Setup (DDL)
+```sql
 
 ### Members Table
 CREATE TABLE cd.members (
