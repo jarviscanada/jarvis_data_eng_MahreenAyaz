@@ -1,5 +1,4 @@
 --Question 1: Adding new facility 'spa' in cd.facilites table
-```sql
 Insert into cd.facilities
 	(facid, name, membercost, guestcost, initialoutlay, monthlymaintenance)
 	values (9, 'Spa', 20, 30, 100000, 800);
