@@ -124,12 +124,12 @@ select count(*) over(), firstname, surname
 from cd.members
 order by joindate  
 
---Question 24: 
+--Question 24: Produce a numbered list of members
 select row_number() over(order by joindate), firstname, surname
 from cd.members
 order by joindate  
 
---Question 25: 
+--Question 25: Output the facility id that has the highest number of slots booked, again
 select facid, total from (
 select facid, sum(slots) total, rank() over (order by sum(slots) desc) rank
 from cd.bookings
@@ -137,13 +137,13 @@ group by facid
 	) as ranked
 where rank = 1  
 
---Question 26: Pipe
+--Question 26: Format name of members using 'Pipe'
 select surname || ', ' || firstname as name from cd.members 
 
---Question 27: 
+--Question 27: Finding telephone number with parentheses
 select memid, telephone from cd.members where telephone ~ '[()]';   
 
---Question 28: 
+--Question 28: Count the number of members whose surname starts with each letter of the alphabet
 select substr (mems.surname,1,1) as letter, count(*) as count 
 from cd.members mems
 group by letter
