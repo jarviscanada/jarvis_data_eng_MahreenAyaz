@@ -47,6 +47,104 @@ select surname from cd.members
 Union 
 select name from cd.facilities;
 
+--Question 12: Using 'Join'
+select starttime
+from cd.bookings
+join cd.members on cd.members.memid = cd.bookings.memid
+where firstname = 'David' and surname = 'Farrell';
 
+--Question 13: Using 'Join' and 'Where' clause
+select cd.bookings.starttime as start, cd.facilities.name
+from cd.bookings join cd.facilities on cd.bookings.facid = cd.facilities.facid
+where cd.bookings.starttime between '2012-09-21 00:00:00'and '2012-09-21 23:59:59' and cd.facilities.name like '%Tennis Court%'
+order by start;
 
+--Question 14: Using 'self join'
+select distinct B.firstname,B.surname
+from cd.members B join cd.members A on B.memid = A.recommendedby
+order by surname,firstname;
 
+--Question 15: Using 'self join'
+select mems.firstname as memfname, mems.surname as memsname, recs.firstname as recfname, recs.surname as recsname
+	from 
+		cd.members mems
+		left outer join cd.members recs
+			on recs.memid = mems.recommendedby
+order by memsname, memfname;  
+
+--Question 16: 'self join'
+memsselect distinct mems.firstname || ' ' || mems.surname as member,
+(
+  select distinct rems.firstname || ' ' || rems.surname as recommener
+  from cd.members rems
+  where rems.memid = mems.recommendedby
+ )
+from cd.members 
+
+--Question 17: 'Group by'
+select recommendedby, count(*)
+from cd.members
+where recommendedby is not null
+group by recommendedby
+order by recommendedby;
+
+--Question 18: Using 'Sum'
+select facid, sum (slots) as "Total slots"
+from cd.bookings
+group by facid
+order by facid;
+
+--Question 19: Using 'Sum'
+select facid, sum(slots) as "Total Slots"
+from cd.bookings
+where starttime >= '2012-09-01' and starttime <'2012-10-01'
+group by facid
+order by sum (slots);
+
+--Question 20: Using'extract'
+select facid, extract(month from starttime) as month, sum(slots) as "Total Slots"
+from cd.bookings
+where extract(year from starttime) = 2012
+group by facid, month
+order by facid, month;
+
+--Question 21:'Count'
+select count(distinct memid) from cd.bookings
+
+--Question 22: 'Join'
+select mems.surname, mems.firstname, mems.memid, min(bks.starttime) as starttime
+from cd.bookings bks
+join cd.members mems on mems.memid = bks.memid
+where starttime >= '2012-09-01'
+group by mems.surname, mems.firstname, mems.memid
+order by mems.memid;  
+
+--Question 23: Count
+select count(*) over(), firstname, surname
+from cd.members
+order by joindate  
+
+--Question 24: 
+select row_number() over(order by joindate), firstname, surname
+from cd.members
+order by joindate  
+
+--Question 25: 
+select facid, total from (
+select facid, sum(slots) total, rank() over (order by sum(slots) desc) rank
+from cd.bookings
+group by facid
+	) as ranked
+where rank = 1  
+
+--Question 26: Pipe
+select surname || ', ' || firstname as name from cd.members 
+
+--Question 27: 
+select memid, telephone from cd.members where telephone ~ '[()]';   
+
+--Question 28: 
+select substr (mems.surname,1,1) as letter, count(*) as count 
+from cd.members mems
+group by letter
+order by letter  
