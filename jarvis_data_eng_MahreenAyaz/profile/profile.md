@@ -15,7 +15,7 @@ I am a skilled Data Analyst and Business System Analyst having just completed Un
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/linux_sql)]: The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first ?host_info.sh? collects the system hardware specs and stores them in host_info table. The second script ?host_usage.sh? collects the system usage parameters and stores them in host_usage table. The has been been schedule using crontab to collect the data every minute. The postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of docker container has also been implemented through ?psql_docker.sh?. Also, a ?ddl.sql? was developed to deploy the tables. The application has been deployed using Git version control.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/linux_sql)]: The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first host_info.sh collects the system hardware specs and stores them in host_info table. The second script host_usage.sh collects the system usage parameters and stores them in host_usage table. The has been been scheduled using crontab to collect the data every minute. The postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of docker container has also been implemented through psql_docker.sh. Also, a ddl.sql was developed to deploy the tables. The application has been deployed using Git version control.
 
 
 ## Highlighted Projects
@@ -30,12 +30,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahreenAya
 
 
 ## Education
-**University of Toronto (2023)**, Diplima in Data Analytics, School of Continuing Studeis
+**University of Toronto (2023)**, Diploma in Data Analytics, School of Continuing Studeis
 
 **University of Houston Clearlake (2012-2014)**, MS Environmental Sciences, Environmental Sciences
 
 
 ## Miscellaneous
 - Traveling
-- Music
 - Home Decor

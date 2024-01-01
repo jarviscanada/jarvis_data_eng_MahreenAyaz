@@ -2,7 +2,7 @@
   "education": [
     {
       "awards_achievements": null,
-      "degree": "Diplima in Data Analytics",
+      "degree": "Diploma in Data Analytics",
       "department": "School of Continuing Studeis",
       "duration": "2023",
       "school_name": "University of Toronto"
@@ -24,7 +24,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first ?host_info.sh? collects the system hardware specs and stores them in host_info table. The second script ?host_usage.sh? collects the system usage parameters and stores them in host_usage table. The has been been schedule using crontab to collect the data every minute. The postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of docker container has also been implemented through ?psql_docker.sh?. Also, a ?ddl.sql? was developed to deploy the tables. The application has been deployed using Git version control.",
+      "description": "The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first host_info.sh collects the system hardware specs and stores them in host_info table. The second script host_usage.sh collects the system usage parameters and stores them in host_usage table. The has been been scheduled using crontab to collect the data every minute. The postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of docker container has also been implemented through psql_docker.sh. Also, a ddl.sql was developed to deploy the tables. The application has been deployed using Git version control.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     }
@@ -34,7 +34,6 @@
     {
       "bullets": [
         "Traveling",
-        "Music",
         "Home Decor"
       ],
       "title": "Activities/Hobbies"
