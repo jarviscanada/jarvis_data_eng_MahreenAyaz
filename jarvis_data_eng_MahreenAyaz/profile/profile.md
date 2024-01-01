@@ -1,64 +1,41 @@
 # Mahreen Ayaz . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+I am a skilled Data Analyst and Business System Analyst having just completed University of Toronto's Data Analytics program. With experience in Waterfall, Agile, and Scrum, I excel in Python, SQL, Excel, VBA, SAP, and project management tools. In my role at Enzen Global, UK, I coordinated scheduling, tracked tasks on JIRA, and contributed to business process modeling. My passion lies in applying analytical and technical skills to Data Analytics or Business System Analysis roles. My strong communication, collaboration, and project management skills make me an ideal candidate for contributing to project success and process excellence.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** RDBMS/SQL, Agile/Scrum, Git, Excel, Project/Stakeholder Management
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** Python, Linux/Bash, Tableau, Agile and Scrum, Business Process Management
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** SAP, System Analysis, VBA, JIRA, ServiceNow
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/cloud_devops)]: Not Started
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/linux_sql)]: The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first ?host_info.sh? collects the system hardware specs and stores them in host_info table. The second script ?host_usage.sh? collects the system usage parameters and stores them in host_usage table. The has been been schedule using crontab to collect the data every minute. The postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of docker container has also been implemented through ?psql_docker.sh?. Also, a ?ddl.sql? was developed to deploy the tables. The application has been deployed using Git version control.
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Improvement of field operations reporting at Enzen Global**: Analyzed and improved the reporting process for field operations at Enzen Global. The field workers submitted their progress status at the end of their workday. This was used to plan the activities for next days and send reports to stake holders. I worked to streamline these processes and ensure there were no gaps in the process. The reporting was also overhauled to make it more meaningful.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Business System Analyst, Jarvis (2023-present)**: Working as a BSA at Jarvis and involved in internal projects and training. I have successfully delivered Python, Bash and SQL related projects.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Business System Analyst, Enzen Global (2014-2017)**: Worked as a BSA at Enzen Global where I was responsible for day-to-day business operations and reporting. I was responsible for managing and scheduling a team of field workers and then reporting on their progress to the stakeholders. These included not only internal executives but also customers. I was also involved in project management, process management and continuous improvement tasks. I regularly used tools like SQL, SAP, ServiceNow and Excel to successfully complete my tasks.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
+**University of Toronto (2023)**, Diplima in Data Analytics, School of Continuing Studeis
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**University of Houston Clearlake (2012-2014)**, MS Environmental Sciences, Environmental Sciences
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Traveling
+- Music
+- Home Decor

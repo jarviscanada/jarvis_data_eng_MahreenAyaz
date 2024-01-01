@@ -1,97 +1,41 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
-      ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "awards_achievements": null,
+      "degree": "Diplima in Data Analytics",
+      "department": "School of Continuing Studeis",
+      "duration": "2023",
+      "school_name": "University of Toronto"
     },
     {
       "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "degree": "MS Environmental Sciences",
+      "department": "Environmental Sciences",
+      "duration": "2012-2014",
+      "school_name": "University of Houston Clearlake"
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
-    },
-    {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Analyzed and improved the reporting process for field operations at Enzen Global. The field workers submitted their progress status at the end of their workday. This was used to plan the activities for next days and send reports to stake holders. I worked to streamline these processes and ensure there were no gaps in the process. The reporting was also overhauled to make it more meaningful.",
+      "name": "Improvement of field operations reporting at Enzen Global"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first ?host_info.sh? collects the system hardware specs and stores them in host_info table. The second script ?host_usage.sh? collects the system usage parameters and stores them in host_usage table. The has been been schedule using crontab to collect the data every minute. The postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of docker container has also been implemented through ?psql_docker.sh?. Also, a ?ddl.sql? was developed to deploy the tables. The application has been deployed using Git version control.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Mahreen Ayaz",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Traveling",
+        "Music",
+        "Home Decor"
       ],
       "title": "Activities/Hobbies"
     }
@@ -99,39 +43,39 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
-      "title": "Software Developer"
+      "description": "Working as a BSA at Jarvis and involved in internal projects and training. I have successfully delivered Python, Bash and SQL related projects.",
+      "duration": "2023-present",
+      "title": "Business System Analyst"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Enzen Global",
+      "description": "Worked as a BSA at Enzen Global where I was responsible for day-to-day business operations and reporting. I was responsible for managing and scheduling a team of field workers and then reporting on their progress to the stakeholders. These included not only internal executives but also customers. I was also involved in project management, process management and continuous improvement tasks. I regularly used tools like SQL, SAP, ServiceNow and Excel to successfully complete my tasks.",
+      "duration": "2014-2017",
+      "title": "Business System Analyst"
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "Python",
+      "Linux/Bash",
+      "Tableau",
+      "Agile and Scrum",
+      "Business Process Management"
     ],
     "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
+      "SAP",
+      "System Analysis",
+      "VBA",
+      "JIRA",
+      "ServiceNow"
     ],
     "proficient": [
-      "Java",
-      "Linux/Bash",
       "RDBMS/SQL",
       "Agile/Scrum",
-      "Git"
+      "Git",
+      "Excel",
+      "Project/Stakeholder Management"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "I am a skilled Data Analyst and Business System Analyst having just completed University of Toronto's Data Analytics program. With experience in Waterfall, Agile, and Scrum, I excel in Python, SQL, Excel, VBA, SAP, and project management tools. In my role at Enzen Global, UK, I coordinated scheduling, tracked tasks on JIRA, and contributed to business process modeling. My passion lies in applying analytical and technical skills to Data Analytics or Business System Analysis roles. My strong communication, collaboration, and project management skills make me an ideal candidate for contributing to project success and process excellence."
 }
