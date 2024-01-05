@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_MahreenAya
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a skilled Data Analyst and Business System Analyst having just completed University of Toronto's Data Analytics program. With experience in Waterfall, Agile, and Scrum, I excel in Python, SQL, Excel, VBA, SAP, and project management tools. In my role at Enzen Global, UK, I coordinated scheduling, tracked tasks on JIRA, and contributed to business process modeling. My passion lies in applying analytical and technical skills to Data Analytics or Business System Analysis roles. My strong communication, collaboration, and project management skills make me an ideal candidate for contributing to project success and process excellence. 
+summary: I am a skilled Data Analyst and Business System Analyst having just completed University of Toronto's Data Analytics program. With experience in Waterfall, Agile, and Scrum, I excel in Python, SQL, Excel, VBA, SAP, and project management tools. In my role at Enzen Global, UK, I coordinated scheduling, tracked tasks on JIRA, and contributed to business process modelling. My passion lies in applying analytical and technical skills to Data Analytics or Business System Analysis roles. My strong communication, collaboration, and project management skills make me an ideal candidate for contributing to project success and process excellence. 
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -38,13 +38,13 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first host_info.sh collects the system hardware specs and stores them in host_info table. The second script host_usage.sh collects the system usage parameters and stores them in host_usage table. The has been been scheduled using crontab to collect the data every minute. The postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of docker container has also been implemented through psql_docker.sh. Also, a ddl.sql was developed to deploy the tables. The application has been deployed using Git version control."
+    description: "The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first host_info.sh collects the system hardware specs and stores them in host_info table. The second script, host_usage.sh, collects the system usage parameters and stores them in the  host_usage table. The has been scheduled using crontab to collect the data every minute. The Postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of the docker container has also been implemented through psql_docker.sh. Also, a ddl.sql was developed to deploy the tables. The application has been deployed using Git version control."
 
 # List of personal or academic projects
 
 highlighted_projects:
 - name: "Improvement of field operations reporting at Enzen Global"
-  description: "Analyzed and improved the reporting process for field operations at Enzen Global. The field workers submitted their progress status at the end of their workday. This was used to plan the activities for next days and send reports to stake holders. I worked to streamline these processes and ensure there were no gaps in the process. The reporting was also overhauled to make it more meaningful."
+  description: "Analyzed and improved the reporting process for field operations at Enzen Global. The field workers submitted their progress status at the end of their workday. This was used to plan the activities for the next days and send reports to stakeholders. I worked to streamline these processes and ensure there were no gaps in the process. The reporting was also overhauled to make it more meaningful."
 
 
 #Write your Jarvis role as a professional experience rather than training.
@@ -60,14 +60,14 @@ professional_experience:
 #
 #                  # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
 #
-  description: "Working as a BSA at Jarvis and involved in internal projects and training. I have successfully delivered Python, Bash and SQL related projects."
+  description: "Working as a BSA at Jarvis and involved in internal projects and training. I have successfully delivered Python, Bash and SQL-related projects."
 #
 - title: "Business System Analyst"
   company: "Enzen Global"
 #
   duration: "2014-2017"
 #
-  description: "Worked as a BSA at Enzen Global where I was responsible for day-to-day business operations and reporting. I was responsible for managing and scheduling a team of field workers and then reporting on their progress to the stakeholders. These included not only internal executives but also customers. I was also involved in project management, process management and continuous improvement tasks. I regularly used tools like SQL, SAP, ServiceNow and Excel to successfully complete my tasks."
+  description: "Worked as a BSA at Enzen Global where I was responsible for day-to-day business operations and reporting. I was responsible for managing and scheduling a team of field workers and then reporting on their progress to the stakeholders. These included not only internal executives but also customers. I was also involved in project management, process management and continuous improvement tasks. I regularly used tools like SQL, SAP, ServiceNow and Excel to complete my tasks."
 
 
 
@@ -77,7 +77,7 @@ education:
   - school_name: "University of Toronto"
     duration: "2023"
     degree: "Diploma in Data Analytics"
-    department: "School of Continuing Studeis"
+    department: "School of Continuing Studies"
     awards_achievements:
 # optional
   - school_name: "University of Houston Clearlake"
