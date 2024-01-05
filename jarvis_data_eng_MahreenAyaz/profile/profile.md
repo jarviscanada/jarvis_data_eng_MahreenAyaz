@@ -38,3 +38,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahreenAya
 ## Miscellaneous
 - Traveling
 - Home Decor
+- Trekking
