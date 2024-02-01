@@ -15,7 +15,11 @@ I am a skilled Data Analyst and Business System Analyst having just completed Un
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/linux_sql)]: The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first host_info.sh collects the system hardware specs and stores them in host_info table. The second script, host_usage.sh, collects the system usage parameters and stores them in the  host_usage table. The has been scheduled using crontab to collect the data every minute. The Postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of the docker container has also been implemented through psql_docker.sh. Also, a ddl.sql was developed to deploy the tables. The application has been deployed using Git version control.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master/linux_sql)]: The application has been developed to collect resource usage data from the Virtual Machine and insert it into Postgres tables. This has been achieved by implementing two bash scripts. The first host_info.sh collects the system hardware specs and stores them in the host_info table. The second script, host_usage.sh, collects the system usage parameters and stores them in the host_usage table. The has been scheduled using crontab to collect the data every minute. The Postgres itself is installed in a docker container. Furthermore, the creation/start/stop functionality of the docker container has also been implemented through psql_docker.sh. Also, a ddl.sql was developed to deploy the tables. The application has been deployed using Git version control.
+
+
+**BSA Fundamentals Project** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/tree/master)]: Produced a comprehensive BRD (Business Requirement Document) for Linux cluster Monitoring application. Also, involved in the elicitation and development of a user-centric stock trading application, aligning with business objectives outlined in the SRD. Utilized preferred technology stack and implemented security measures, ensuring high availability and real-time data updates.
+
 
 
 ## Highlighted Projects
@@ -36,6 +40,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MahreenAya
 
 
 ## Miscellaneous
-- Traveling
-- Home Decor
-- Trekking
+- Hiking: I absolutely love hiking and I usually go on the weekends with my kids. It's not just a great way to stay physically active, but it also teaches me perseverance and the importance of reaching new heights.
+- Traveling: Traveling is one of my great passions. Experiencing different cultures has not only broadened my perspective but has also made me more adaptable and open-minded. Among the European countries that I have visited, Italy was my favorite.
+- Home Decor: I have a keen interest in home decor. It might seem like an unusual hobby, but I find joy in creating a comfortable and aesthetically pleasing living space. It's about creating an environment that's not only functional but also enjoyable.
