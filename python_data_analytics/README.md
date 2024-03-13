@@ -30,4 +30,3 @@ If given more time, three improvements could be implemented for the project:
 
 3.	A/B Testing: Implement A/B testing capabilities within the web application to experiment with different marketing strategies, product placements, or pricing strategies. By conducting controlled experiments, LGS can measure the effectiveness of various initiatives and make data-driven decisions to optimize revenue.
 
-![image](https://github.com/jarviscanada/jarvis_data_eng_MahreenAyaz/assets/124314558/00618b5c-9244-4b79-9539-bdcde286b4d3)
